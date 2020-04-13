@@ -1,0 +1,4 @@
+# A custom fork of Attention OCR is used to fix the following error on Nvidia GPUs:
+# "Could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR"
+-e git://github.com/siphomateke/attention-ocr.git#egg=aocr
+# aocr==0.7.6
